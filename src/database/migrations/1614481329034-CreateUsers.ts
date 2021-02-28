@@ -20,7 +20,7 @@ export class CreateUsers1614481329034 implements MigrationInterface {
                     type: "varchar"
                 },
                 {
-                    name: "creat_at",
+                    name: "created_at",
                     type: "timestamp",
                     default: "now()"
                 }
