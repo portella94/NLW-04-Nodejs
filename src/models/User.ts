@@ -7,10 +7,10 @@ class User {
     readonly id: string;
 
     @Column()
-    title: string;
+    name: string;
 
     @Column()
-    description: string;
+    email: string;
 
     @CreateDateColumn()
     created_at: Date;
